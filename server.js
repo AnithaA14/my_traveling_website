@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, "public")));
 
 // API route
+// ia am rizi
 app.get("/api/destinations", (req, res) => {
   const destinations = [
     { name: "Paris", country: "France", attraction: "Eiffel Tower", details: "City of Lights", img: "https://picsum.photos/id/1018/400/250" },

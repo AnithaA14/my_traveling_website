@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
-# Copy the rest of the project
+# Copy the rest of the project jojf
 COPY . .
 
 # Expose port
